@@ -3,11 +3,11 @@
 class URL {
 	public static function route($route = '')
 	{
-		return 'http://localhost:8000/'. $route;
+		return 'http://cipajaran-farm.herokuapp.com/'. $route;
 	}
 
 	public static function asset($asset = '')
 	{
-		return 'http://localhost:8000/public/'. $asset;
+		return 'http://cipajaran-farm.herokuapp.com/public/'. $asset;
 	}
 }
